@@ -1,0 +1,4 @@
+NTC
+===
+
+NTC stands for Network Topology capture. It is an algorithm for doing distributed measurement more accurately with accelerated time for probing. Basically, NTC uses te standard traceroute functionality that serves to probe the path from a source to a destination on the networks. As in distributed measurement means lots of sources and destination, we have seen that the topology measured as a graph has a high amount of redundancy, meaning that huge amount of traceroute probing are probing the same part of the network. By lowering the number of probe sent we have a direct impact on the measurement time which allows to track short scale changes, and dynamism events.
